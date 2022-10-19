@@ -1,0 +1,145 @@
+:root {
+  /*Typography*/
+  --font-family: "Red Hat Display", sans-serif;
+  --fs-heading1: 1.8em;
+  --fs-heaging2: 1.1em;
+  --fs-body: 16px;
+  --fs-links: 0.95em;
+  /*Colors*/
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --hover-color: hsl(276, 51%, 57%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --border-rad: 1em;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: var(--fs-body);
+  font-family: var(--font-family);
+  background-color: var(--pale-blue);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: var(--very-pale-blue);
+  box-shadow: 0 0.5em 2em hsla(223, 47%, 23%, 0.25);
+  width: 80%;
+  height: max-content;
+  border-radius: var(--border-rad);
+}
+h1 {
+  color: var(--dark-blue);
+  font-size: var(--fs-heading1);
+  font-weight: 900;
+}
+h2 {
+  color: var(--dark-blue);
+  font-size: var(--fs-heaging2);
+  font-weight: 900;
+}
+p {
+  color: var(--desaturated-blue);
+}
+button {
+  display: block;
+  padding: 1em;
+  border: none;
+  background-color: var(--bright-blue);
+  color: var(--very-pale-blue);
+  border-radius: var(--border-rad);
+  width: 90%;
+  font-size: var(--fs-links);
+  margin-top: 3.5em;
+  margin-bottom: 1.5em;
+  box-shadow: 0 0.5em 2em hsla(240, 63%, 72%, 0.706);
+  font-weight: 700;
+}
+button:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
+}
+a {
+  all: unset;
+}
+.plan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.plan img {
+  margin-right: 0.8em;
+}
+.price-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+}
+.change {
+  font-weight: 700;
+  font-size: var(--fs-links);
+  color: var(--bright-blue);
+  text-decoration: underline;
+}
+.change:hover {
+  color: var(--hover-color);
+  cursor: pointer;
+}
+.hiro-image {
+  border-radius: 1em 1em 0em 0em;
+}
+.body-container {
+  padding: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  margin-top: 1.3em;
+  margin-bottom: 3em;
+  line-height: 150%;
+}
+.cancel {
+  color: var(--desaturated-blue);
+  font-weight: 700;
+  font-size: var(--fs-links);
+  opacity: 0.7;
+}
+.cancel:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 317px) {
+  .plan {
+    flex-direction: column;
+  }
+  .plan img {
+    margin-bottom: 1em;
+  }
+  .price-icon {
+    flex-direction: column;
+    margin-bottom: 1.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    max-width: 26em;
+  }
+}
