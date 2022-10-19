@@ -18,6 +18,6 @@ Frontend solution page: Frontend Mentor solution
 ### What I learned
 Work with multiple positioning and how to organizated a huge amount of elements inside a single html block.
 
-Author
-Github - [GL Harvey](https://github.com/glharvey)
-Frontend Mentor - [@glharvey](https://www.frontendmentor.io/profile/glharvey)
+### Author
+- Github - [GL Harvey](https://github.com/glharvey) 
+- Frontend Mentor - [@glharvey](https://www.frontendmentor.io/profile/glharvey)
