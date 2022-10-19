@@ -6,8 +6,8 @@ A proposed solution to the [Order summary component](https://www.frontendmentor.
 [desktop-design](https://user-images.githubusercontent.com/87007953/196605190-6fdf1ad9-9711-4aee-a4e4-94d13bac1311.jpg)
 
 ### Proposed Solution
-Solution Live URL: live site at github
-Frontend solution page: Frontend Mentor solution
+Solution Live URL: [live site at github](https://glharvey.github.io/order-summary/)
+Frontend solution page: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/order-summary-card-solution-jxuE2Y9aQs)
 
 ### Built with
 - Semantic HTML5 markup
@@ -16,7 +16,7 @@ Frontend solution page: Frontend Mentor solution
 - Media queries
 
 ### What I learned
-Work with multiple positioning and how to organizated a huge amount of elements inside a single html block.
+How to handle responsiveness.
 
 ### Author
 - Github - [GL Harvey](https://github.com/glharvey) 
