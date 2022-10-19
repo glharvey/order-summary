@@ -137,8 +137,7 @@ a {
     margin-bottom: 1.5em;
   }
 }
-
-@media (min-width: 768px) {
+@media (min-width: 320px) {
   main {
     max-width: 26em;
   }
