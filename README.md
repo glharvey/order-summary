@@ -3,7 +3,7 @@
 A proposed solution to the [Order summary component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges helps improve my coding skills by building realistic projects.
 
 ## Screenshot!
-[desktop-design](https://user-images.githubusercontent.com/87007953/196605190-6fdf1ad9-9711-4aee-a4e4-94d13bac1311.jpg)
+![desktop-design](assets/desktop-design.jpg)
 
 ### Proposed Solution
 Solution Live URL: [live site at github](https://glharvey.github.io/order-summary/)
